@@ -1,4 +1,5 @@
 import TelaCadastroTipoAtividade from "./componentes/telas/telaCadastroTurma";
+import TelaCadastroAtividade from "./componentes/telas/telaCadastroAtividade";
 import TelaMenu from './componentes/telas/telaMenu';
 import Tela404 from "./componentes/telas/tela404";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -31,6 +32,7 @@ function App() {
               }
               <Route path="/turmas" element={<TelaCadastroTipoAtividade />} />
               <Route path="/alunos" element={<TelaCadastroAluno />} />
+              <Route path="/atividadeextracurricular" element={<TelaCadastroAtividade />} />
               <Route path="/" element={<TelaMenu />} />
               <Route path="*" element={<Tela404 />} />
             </Routes>

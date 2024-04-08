@@ -3,7 +3,7 @@ import { ContextoUsuario } from "../contexto/Contexto";
 import { useContext, useState } from "react";
 
 export default function TelaLogin() {
-    const [usuario, setUsuario] = useContext(ContextoUsuario);
+    const [usuario,setUsuario] = useContext(ContextoUsuario);
     const [nomeUsuario, setNomeUsuario] = useState("");
     const [senha, setSenha] = useState("");
 

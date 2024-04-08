@@ -48,6 +48,7 @@ export default function Menu() {
           <Offcanvas.Title>MENU</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
+
           <Nav className="flex-column">
             <Nav.Item style={itemStyle}>
               <Nav.Link
@@ -59,6 +60,7 @@ export default function Menu() {
                 <i className="bi bi-house-door-fill"></i> INÍCIO
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item style={itemStyle}>
               <Nav.Link
                 as={Link}
@@ -69,6 +71,7 @@ export default function Menu() {
                 <i className="bi bi-journal-bookmark-fill"></i> TURMAS
               </Nav.Link>
             </Nav.Item>
+
             <Nav.Item style={itemStyle}>
               <Nav.Link
                 as={Link}
@@ -79,6 +82,19 @@ export default function Menu() {
                 <i className="bi bi-people-fill"></i> ALUNOS
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item style={itemStyle}>
+              <Nav.Link
+                as={Link}
+                to="/atividadeExtracurricular"
+                onClick={handleClose}
+                style={linkStyle}
+              >
+                <i className="bi bi-calendar-event-fill"></i> ATIVIDADES
+              </Nav.Link>
+            </Nav.Item>
+
+
             <Nav.Item style={itemStyle}>
               <Nav.Link
                 onClick={() => {
