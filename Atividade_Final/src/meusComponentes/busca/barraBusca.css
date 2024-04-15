@@ -1,0 +1,89 @@
+/* .barra {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(69,68,68);
+    width: inherit;
+}
+
+.barra svg {
+    margin: 2px;
+}
+
+.barra input[type="text"] {
+    display: inline;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    width: 90%;
+}
+
+.resultado {
+    width: 100%;
+}
+
+.resultado ul {
+    display: none;
+    position: absolute;
+    float:left;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px rgb(69,68,68);
+    margin: 0;
+    padding: 1px;
+    background-color: whitesmoke;
+    width: 66%;
+}
+
+.resultado li {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -1px;
+    padding: 3px;
+    border-bottom: 1px;
+}
+
+.resultado li:hover{
+    background-color: black;
+    color: white;
+}
+ */
+
+ .barra {
+    position: relative;
+    width: 100%;
+}
+
+.barra input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-top: none; /* Remove a borda superior para se conectar visualmente ao input */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto; /* Adiciona rolagem se o número de itens for muito grande */
+}
+
+ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+ul li:hover {
+    background-color: #f8f8f8;
+}

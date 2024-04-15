@@ -1,0 +1,105 @@
+#formularioAluno {
+  margin-left: 120px;
+  transition: margin-left 0.5s linear;
+}
+
+#formularioAluno.expanded {
+  margin-left: 300px;
+}
+
+.form--wrapper {
+  padding: 20px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.section-title h2.fw-bold {
+  color: rgb(20, 87, 94);
+  font-weight: bold;
+}
+
+.section-title {
+  max-width: 600px;
+}
+
+.section-title h2 {
+  font-size: 25px;
+}
+
+.icone {
+  font-size: 2rem;
+}
+
+.borda-form {
+  border-left: 5px solid rgb(162, 64, 34);
+  padding-left: 10px;
+}
+
+.borda-form2 {
+  border-left: 5px solid rgb(21, 119, 125);
+  padding-left: 10px;
+}
+
+.btn-adicionar {
+  background-color: green;
+  color: white;
+}
+
+.custom-label {
+  font-size: 18px;
+}
+
+.custom-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.btn-vinho {
+    background-color: #800000; /* Cor vinho */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Aumenta o padding para aumentar o tamanho */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+}
+  
+.btn-vinho:hover {
+    background-color: #660000; /* Um tom de vinho mais escuro para o hover */
+}
+  
+/* Espaçamento entre botões */
+.btn-spacing {
+    margin-right: 10px; /* Espaço à direita do botão */
+}
+  
+/* Alinhamento e espaçamento dos botões */
+.buttons-container {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    margin-top: 20px; /* Espaço acima dos botões */
+    gap: 10px; /* Espaço entre os botões */
+    margin-bottom: 30px; /* Espaço abaixo dos botões para pular uma linha */
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+}
+

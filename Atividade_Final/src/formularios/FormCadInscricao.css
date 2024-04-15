@@ -1,0 +1,222 @@
+.header-wrapper {
+  text-align: center;
+  margin-bottom: 20px; /* Reduzido para aproximar do título */
+}
+
+.titulo-vagas {
+  background-color: #9c27b0;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.bi-briefcase {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #ffd700;
+}
+
+.custom-card {
+  background-color: #faf5b0;
+  width: 500px; /* Largura ajustada para um visual mais retangular */
+  height: 150px; /* Altura reduzida para um visual mais retangular */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 0px; /* Reduzindo espaço acima */
+  margin-bottom: 20px; /* Reduzindo espaço abaixo */
+}
+
+.container-cinza-claro {
+  background-color: #e7d9d9be;
+}
+
+/* Estilização específica para rótulos dentro dos cartões de data e hora */
+.square-date .form-label, .square-time .form-label {
+    font-size: 1.2rem; /* Tamanho maior para o texto do rótulo */
+    /* Tornar o texto em negrito */
+    text-align: center; /* Centralizar o texto */
+    display: block; /* Fazer o label ocupar toda a linha */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo do rótulo */
+  }
+  
+  .icon-and-border {
+    display: inline-flex;
+    align-items: center; /* Centraliza verticalmente o ícone com o texto */
+  }
+  
+  .vertical-bar {
+    height: 20px; /* Altura da borda */
+    width: 4px; /* Espessura uniforme da borda */
+    background-color: #800080; /* Cor uniforme para a borda */
+    margin-left: 5px; /* Espaço à esquerda do ícone */
+    margin-right: 10px; /* Espaço entre a borda e o texto */
+  }
+  
+  .bi {
+    font-size: 1.25rem; /* Tamanho uniforme do ícone */
+  }
+  
+  .titulo-icone {
+    font-size: 2.0rem; /* ou qualquer outro tamanho desejado */
+  }
+
+  /* Estilização geral para os rótulos e controles dentro das caixas de data e hora */
+.square-date .form-label, .square-time .form-label,
+.square-date .form-control, .square-time .form-control {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  width: 100%; /* Ocupa toda a largura disponível dentro do contêiner */
+}
+
+/* Ajuste adicional para Form.Controls para alinhamento vertical */
+.square-date .form-control, .square-time .form-control {
+  display: block; /* Garante que o input seja tratado como um bloco, facilitando a centralização */
+  margin: 0 auto; /* Centraliza o input horizontalmente dentro de seu contêiner */
+}
+
+.candidato-container {
+    background-color: #ECC8FF; /* Lilás claro */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .candidato-title {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: black; /* Ajustando para preto conforme sua configuração */
+    margin-bottom: 10px;
+  }
+  
+  .bi-person-fill {
+    font-size: 1.7rem;
+    color: black; /* Cor do ícone */
+  }
+  
+  .vertical-bar {
+    height: 20px; /* Altura da borda */
+    width: 4px; /* Espessura da borda */
+    background-color: #800080; /* Cor roxa da borda */
+    margin-left: 5px; /* Espaço entre o ícone e a borda */
+    margin-right: 10px; /* Espaço entre a borda e o texto */
+  }
+  
+  .bi {
+    font-size: 1.25rem; /* Tamanho padrão dos ícones */
+  }
+  
+  .custom-container {
+    background-color: white; /* Fundo branco */
+    padding: 40px; /* Espaçamento interno para a visibilidade */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .add-button {
+    margin-top: 20px; /* Espaço acima do botão */
+  }
+  
+  /* Ajuste para manter os itens alinhados e espaçados */
+  .row {
+    margin-bottom: 1px; /* Espaço entre as linhas */
+  }
+  
+  /* Centralização de conteúdo dentro das colunas */
+  .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Ajuste para labels e controles para que ocupem todo o espaço disponível e centralizem o texto */
+  .form-group {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form-control {
+    text-align: center;
+  }
+  
+
+
+
+  .custom-vagas-container {
+    background-color: #faf5b0; /* Amarelo pastel */
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .icon-vagas {
+    color: black; /* A cor do ícone */
+    margin-right: 10px;
+  }
+  
+  .icon-border-right {
+    height: 20px; /* Altura da borda */
+    width: 3px; /* Largura da borda */
+    background-color: #800080; /* Cor roxa para a borda */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Espaço após a borda antes do texto */
+  }
+  
+  h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  
+  .Col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .add-button-2 {
+    background-color: #FFD700; /* Cor amarela para o botão */
+    border: none; /* Remove a borda padrão do botão */
+    color: rgb(255, 255, 255); /* Define a cor do texto para preto */
+  }
+  
+  /* Centraliza o botão horizontalmente */
+  .text-center {
+    text-align: center; /* Centraliza o conteúdo da coluna */
+  }
+  
+
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .vagas-selecionadas {
+    text-align: center; /* Centraliza o conteúdo */
+    font-size: 1.4rem; /* Ajusta o tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    display: flex; /* Utiliza flexbox para alinhar ícone e texto */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin-top: 20px; /* Espaço acima do parágrafo */
+    margin-bottom: 20px; /* Espaço abaixo do parágrafo */
+  }
+  
+  .vagas-selecionadas i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+    font-size: 1.5rem; /* Tamanho do ícone */
+  }
+
+  

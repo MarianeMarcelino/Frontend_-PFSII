@@ -1,0 +1,11 @@
+.table-header th {
+    background-color: #faf097; /* Amarelo pastel para o fundo do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .table-header th i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto */
+    vertical-align: middle; /* Alinha o ícone verticalmente ao centro do texto */
+  }
+
+  
